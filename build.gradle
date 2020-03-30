@@ -3,13 +3,12 @@ buildscript {
         springBootVersion = '2.2.4.RELEASE'
         springCloudVersion = 'Hoxton.SR3'
         springBootManagementVersion = '1.0.8.RELEASE'
-        aliyun = 'http://maven.aliyun.com/nexus/content/groups/public/'
     }
 
     repositories {
-        mavenLocal()
+        // mavenLocal()
         maven {
-            url aliyun
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
         }
         mavenCentral()
     }
