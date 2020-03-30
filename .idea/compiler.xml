@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/LocalRepo/Gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.2.5.RELEASE/3426cb36706915047406da672b7ee9628f5f47d6/spring-boot-configuration-processor-2.2.5.RELEASE.jar" />
+        </processorPath>
+        <module name="springcloud.produce.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud.main" target="1.8" />
+      <module name="springcloud.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
